@@ -1,0 +1,127 @@
+[
+  {
+    "courseId": "101",
+    "title": "Java Basics",
+    "description": "Learn Java basics",
+    "instructorId": 2,
+    "lessons": [],
+    "students": [
+      {
+        "userId": 5,
+        "username": "youssef",
+        "email": "youssef@example.com",
+        "progress": 0
+      },
+      {
+        "userId": 6,
+        "username": "mona",
+        "email": "mona@example.com",
+        "progress": 0
+      }
+    ]
+  },
+  {
+    "courseId": "102",
+    "title": "Advanced Python",
+    "description": "Deep dive into Python",
+    "instructorId": 3,
+    "lessons": [],
+    "students": [
+      {
+        "userId": 8,
+        "username": "ali",
+        "email": "ali@example.com",
+        "progress": 0
+      },
+      {
+        "userId": 7,
+        "username": "hassan",
+        "email": "hassan@example.com",
+        "progress": 0
+      }
+    ]
+  },
+  {
+    "courseId": "103",
+    "title": "Web Development with JavaScript",
+    "description": "Build dynamic web applications",
+    "instructorId": 1,
+    "lessons": [],
+    "students": [
+      {
+        "userId": 9,
+        "username": "mohamed",
+        "email": "mohamed@example.com",
+        "progress": 30
+      }
+    ]
+  },
+  {
+    "courseId": "104",
+    "title": "Data Science Fundamentals",
+    "description": "Introduction to Data Science concepts",
+    "instructorId": 4,
+    "lessons": [],
+    "students": [
+      {
+        "userId": 10,
+        "username": "fawzy",
+        "email": "fawzy@example.com",
+        "progress": 50
+      }
+    ]
+  },
+  {
+    "courseId": "105",
+    "title": "Machine Learning Basics",
+    "description": "Get started with Machine Learning",
+    "instructorId": 5,
+    "lessons": [],
+    "students": [
+      {
+        "userId": 11,
+        "username": "Sara",
+        "email": "sara@example.com",
+        "progress": 75
+      }
+    ]
+  },
+  {
+    "courseId": "106",
+    "title": "Java Programming",
+    "description": "Learn the basics of Java.",
+    "instructorId": 6,
+    "lessons": [],
+    "students": [
+      {
+        "userId": "3",
+        "username": "alice_wonder",
+        "email": "alice@example.com",
+        "progress": 0.0
+      }
+    ]
+  },
+  {
+    "courseId": "106",
+    "title": "Java Programming",
+    "description": "Learn the basics of Java.",
+    "instructorId": 6,
+    "lessons": [],
+    "students": [
+      {
+        "userId": "3",
+        "username": "alice_wonder",
+        "email": "alice@example.com",
+        "progress": 0.0
+      }
+    ]
+  },
+  {
+    "courseId": "106",
+    "title": "Java Programming",
+    "description": "Learn the basics of Java.",
+    "instructorId": 6,
+    "lessons": [],
+    "students": []
+  }
+]

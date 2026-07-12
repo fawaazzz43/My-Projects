@@ -1,0 +1,179 @@
+
+{
+  "students": [
+    {
+      "userId": "1",
+      "role": "student",
+      "username": "ramy",
+      "email": "ramy@example.com",
+      "passwordHash": "hashed_password_123",
+      "progress": 0.0
+    },
+    {
+      "userId": "3",
+      "role": "student",
+      "username": "ahmed",
+      "email": "ahmed@example.com",
+      "passwordHash": "hashed_password_125",
+      "progress": 0.0
+    },
+    {
+      "userId": "5",
+      "role": "student",
+      "username": "charlie_brown",
+      "email": "charlie@example.com",
+      "passwordHash": "hashed_password",
+      "progress": 0.0
+    },
+    {
+      "userId": "9265",
+      "role": "student",
+      "username": "omar khaled",
+      "email": "omar@gmail.com",
+      "passwordHash": "123",
+      "progress": 0.0
+    },
+    {
+      "userId": "5477",
+      "role": "student",
+      "username": "omarkhaled",
+      "email": "omarkhaled@gmail.com",
+      "passwordHash": "123",
+      "progress": 0.0
+    },
+    {
+      "userId": "1124",
+      "role": "student",
+      "username": "mm",
+      "email": "mm@gmail.com",
+      "passwordHash": "1",
+      "enrolledCourses": [],
+      "progress": 0.0
+    },
+    {
+      "userId": "1124",
+      "role": "student",
+      "username": "mm",
+      "email": "mm@gmail.com",
+      "passwordHash": "1",
+      "enrolledCourses": [],
+      "progress": 0.0
+    },
+    {
+      "userId": "8493",
+      "role": "student",
+      "username": "nn",
+      "email": "nn@gmail.com",
+      "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "enrolledCourses": [],
+      "progress": 0.0
+    }
+  ],
+  "instructors": [
+    {
+      "userId": "2",
+      "role": "instructor",
+      "username": "omar",
+      "email": "omar@example.com",
+      "passwordHash": "hashed_password_124"
+    },
+    {
+      "userId": "4",
+      "role": "instructor",
+      "username": "mohamed",
+      "email": "mohamed@example.com",
+      "passwordHash": "hashed_password_126"
+    },
+    {
+      "userId": "5",
+      "role": "instructor",
+      "username": "samy",
+      "email": "samy@example.com",
+      "passwordHash": "hashed_password_127"
+    },
+    {
+      "userId": "5419",
+      "role": "instructor",
+      "username": "omarkhaled",
+      "email": "omrkhaled@gmail.com",
+      "passwordHash": "123"
+    },
+    {
+      "userId": "276",
+      "role": "instructor",
+      "username": "ooo",
+      "email": "oo",
+      "passwordHash": "1234"
+    },
+    {
+      "userId": "7787",
+      "role": "instructor",
+      "username": "omar",
+      "email": "e@gmail.com",
+      "passwordHash": "1"
+    },
+    {
+      "userId": "1813",
+      "role": "instructor",
+      "username": "ll",
+      "email": "ll@gmail.com",
+      "passwordHash": "1",
+      "createdCourses": [],
+      "courses": {}
+    },
+    {
+      "userId": "1813",
+      "role": "instructor",
+      "username": "ll",
+      "email": "ll@gmail.com",
+      "passwordHash": "1",
+      "createdCourses": [],
+      "courses": {}
+    },
+    {
+      "userId": "10",
+      "role": "instructor",
+      "username": "oo",
+      "email": "oo@gmail.com",
+      "passwordHash": "1",
+      "createdCourses": [],
+      "courses": {}
+    },
+    {
+      "userId": "10",
+      "role": "instructor",
+      "username": "oo",
+      "email": "oo@gmail.com",
+      "passwordHash": "1",
+      "createdCourses": [],
+      "courses": {}
+    },
+    {
+      "userId": "10",
+      "role": "instructor",
+      "username": "pp",
+      "email": "pp@gmail.com",
+      "passwordHash": "1",
+      "createdCourses": [],
+      "courses": {}
+    },
+    {
+      "userId": "10",
+      "role": "instructor",
+      "username": "pp",
+      "email": "pp@gmail.com",
+      "passwordHash": "1",
+      "createdCourses": [],
+      "courses": {}
+    },
+    {
+      "userId": "4713",
+      "role": "instructor",
+      "username": "kk",
+      "email": "kk@gmail.com",
+      "passwordHash": "1",
+      "createdCourses": [],
+      "courses": {}
+    }
+  ]
+}
