@@ -1,0 +1,128 @@
+[
+  {
+    "courseId": 101,
+    "title": "Introduction to Java Programming",
+    "description": "A comprehensive course covering Java fundamentals, object-oriented programming, and basic data structures.",
+    "instructorId": 501,
+    "status": "APPROVED",
+    "numberOflessons": 1,
+    "progress": 0.0,
+    "lessons": [
+      {
+        "lessonId": 1,
+        "title": "Java Environment and Basics",
+        "content": "Understanding the JVM, JDK, and writing your first 'Hello World' program. Covers variables and data types.",
+        "resources": [
+          "Java Installation Guide.pdf",
+          "Basic Syntax Cheat Sheet.txt"
+        ],
+        "quiz": {
+          "title": "Basic Java Concepts Quiz",
+          "numberOfQuestions": 5,
+          "questions": [
+            {
+              "QuestionsId": 1,
+              "questionText": "What does JVM stand for?",
+              "correctAnswer": "Java Virtual Machine",
+              "options": [
+                "Java Verification Method",
+                "Java Virtual Machine",
+                "Joint Virtual Model",
+                "Junction Volatile Memory"
+              ],
+              "size": 4
+            },
+            {
+              "QuestionsId": 2,
+              "questionText": "Which data type is used to store a single character in Java?",
+              "correctAnswer": "char",
+              "options": [
+                "String",
+                "int",
+                "char",
+                "byte"
+              ],
+              "size": 4
+            },
+            {
+              "QuestionsId": 3,
+              "questionText": "What is the keyword used to prevent a method from being overridden?",
+              "correctAnswer": "final",
+              "options": [
+                "static",
+                "abstract",
+                "public",
+                "final"
+              ],
+              "size": 4
+            },
+            {
+              "QuestionsId": 4,
+              "questionText": "Which Java operator is used for finding the remainder of a division?",
+              "correctAnswer": "%",
+              "options": [
+                "/",
+                "*",
+                "%",
+                "#"
+              ],
+              "size": 4
+            },
+            {
+              "QuestionsId": 5,
+              "questionText": "What is the entry point for execution in a standard Java application?",
+              "correctAnswer": "public static void main(String[] args)",
+              "options": [
+                "public void main(String[] args)",
+                "int main(String[] args)",
+                "public static void main()",
+                "public static void main(String[] args)"
+              ],
+              "size": 4
+            }
+          ]
+        }
+      }
+    ],
+    "studentsIncourse": [
+      {
+        "userId": 2118,
+        "role": "student",
+        "username": "hh",
+        "email": "hh@gmail.com",
+        "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+      }
+    ]
+  },
+  {
+    "courseId": 102,
+    "title": "Web Design Fundamentals (No Quiz)",
+    "description": "Learn the basics of HTML5 and CSS3 for creating static, beautiful websites.",
+    "instructorId": 502,
+    "status": "PENDING",
+    "numberOflessons": 2,
+    "progress": 0.0,
+    "lessons": [
+      {
+        "lessonId": 1,
+        "title": "HTML Structure and Semantics",
+        "content": "Focuses on proper use of HTML tags and document structure.",
+        "resources": [
+          "HTML5 Elements Reference.pdf"
+        ],
+        "quiz": null
+      },
+      {
+        "lessonId": 2,
+        "title": "CSS Styling and Layouts",
+        "content": "Covers selectors, box model, Flexbox, and basic responsive design.",
+        "resources": [
+          "CSS Cheat Sheet.pdf",
+          "Flexbox Guide.url"
+        ],
+        "quiz": null
+      }
+    ],
+    "studentsIncourse": []
+  }
+]
