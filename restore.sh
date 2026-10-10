@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Part 2: Restore Tool script
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <dir> <malicious_dir>"[cite: 3]
     exit 1

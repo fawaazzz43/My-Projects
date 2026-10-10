@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Part 1: Antivirus Daemon script
 if [ "$#" -ne 3 ]; then
     echo "Usage: $0 <dir> <malicious_dir> <interval-secs>"
     exit 1
@@ -16,7 +15,6 @@ WHITELIST="whitelist.txt"
 touch "$WHITELIST"
 mkdir -p "$MALICIOUS_DIR"
 
-# Flagged extensions and keywords defined here as required
 EXTENSIONS=(".exe" ".bat" ".vbs" ".scr" ".ps1")
 KEYWORDS=("virus" "trojan" "malware" "worm" "ransomware")
 
@@ -28,14 +26,14 @@ scan_directory() {
         [ -f "$file" ] || continue
         filename=$(basename "$file")
         
-        # Bonus 2: Check whitelist
+
         if grep -Fxq "$filename" "$WHITELIST"; then
             continue
         fi
 
         is_malicious=0
 
-        # Check flagged extension[cite: 3]
+        
         for ext in "${EXTENSIONS[@]}"; do
             if [[ "$filename" == *"$ext" ]]; then
                 is_malicious=1
@@ -43,7 +41,7 @@ scan_directory() {
             fi
         done
 
-        # Check flagged content (case-insensitive)[cite: 3]
+        
         if [ $is_malicious -eq 0 ]; then
             for kw in "${KEYWORDS[@]}"; do
                 if grep -qi "$kw" "$file"; then
@@ -61,7 +59,7 @@ scan_directory() {
     done
 }
 
-# On the very first run, perform scan immediately and create directory-info.last[cite: 3]
+
 if [ ! -f "$LAST_INFO" ]; then
     ls -l "$DIR" > "$LAST_INFO" 2>/dev/null[cite: 2]
     scan_directory
